@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{139DE960-D295-4329-B403-9BCDC9C38E95}</ProjectGuid>
+    <RootNamespace>TacoGato</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\SDL_Lib\SDL2-2.0.3\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\SDL_Lib\SDL2-2.0.3\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>D:\Projects\Taco Gato\Taco Gato\SDL2-2.0.3\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Projects\Taco Gato\Taco Gato\SDL2-2.0.3\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Abstract_Game_Actor.cpp" />
+    <ClCompile Include="Bulldog_AI.cpp" />
+    <ClCompile Include="Bulldog_Graphics.cpp" />
+    <ClCompile Include="Bulldog_Physics.cpp" />
+    <ClCompile Include="Corgi_AI.cpp" />
+    <ClCompile Include="Corgi_Graphics.cpp" />
+    <ClCompile Include="Corgi_Physics.cpp" />
+    <ClCompile Include="Enemy_Bulldog.cpp" />
+    <ClCompile Include="Enemy_GreyHound.cpp" />
+    <ClCompile Include="Enemy_Handler.cpp" />
+    <ClCompile Include="Enemy_Shiba.cpp" />
+    <ClCompile Include="Game_Weapons.cpp" />
+    <ClCompile Include="Enemy_Corgi.cpp" />
+    <ClCompile Include="Actor_NPC.cpp" />
+    <ClCompile Include="Abstract_Actor_Input.cpp" />
+    <ClCompile Include="Abstract_Actor_Graphics.cpp" />
+    <ClCompile Include="Game_Collision.cpp" />
+    <ClCompile Include="Game_Renderer.cpp" />
+    <ClCompile Include="Game_Timer.cpp" />
+    <ClCompile Include="Game_Window.cpp" />
+    <ClCompile Include="GreyHound_AI.cpp" />
+    <ClCompile Include="GreyHound_Graphics.cpp" />
+    <ClCompile Include="GreyHound_Physics.cpp" />
+    <ClCompile Include="Husky_AI.cpp" />
+    <ClCompile Include="Husky_Graphics.cpp" />
+    <ClCompile Include="Husky_Physics.cpp" />
+    <ClCompile Include="Level_1.cpp" />
+    <ClCompile Include="Level_2.cpp" />
+    <ClCompile Include="Level_3.cpp" />
+    <ClCompile Include="Level_4.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Main_Loop.cpp" />
+    <ClCompile Include="Abstract_Actor_Physics.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="Enemy_Husky.cpp" />
+    <ClCompile Include="Shiba_AI.cpp" />
+    <ClCompile Include="Shiba_Graphics.cpp" />
+    <ClCompile Include="Shiba_Physics.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="TacoGato_Graphics.cpp" />
+    <ClCompile Include="TacoGato_Input.cpp" />
+    <ClCompile Include="TacoGato_Physics.cpp" />
+    <ClCompile Include="Taco_Gato.cpp" />
+    <ClCompile Include="tinyxml\tinystr.cpp" />
+    <ClCompile Include="tinyxml\tinyxml.cpp" />
+    <ClCompile Include="tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="tinyxml\tinyxmlparser.cpp" />
+    <ClCompile Include="World.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Abstract_Game_Actor.h" />
+    <ClInclude Include="Bulldog_AI.h" />
+    <ClInclude Include="Bulldog_Graphics.h" />
+    <ClInclude Include="Bulldog_Physics.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Corgi_AI.h" />
+    <ClInclude Include="Corgi_Graphics.h" />
+    <ClInclude Include="Corgi_Physics.h" />
+    <ClInclude Include="Enemy_Bulldog.h" />
+    <ClInclude Include="Enemy_GreyHound.h" />
+    <ClInclude Include="Enemy_Handler.h" />
+    <ClInclude Include="Enemy_Husky.h" />
+    <ClInclude Include="Enemy_Shiba.h" />
+    <ClInclude Include="Game_Weapons.h" />
+    <ClInclude Include="Enemy_Corgi.h" />
+    <ClInclude Include="Bazooka.h" />
+    <ClInclude Include="GreyHound_AI.h" />
+    <ClInclude Include="GreyHound_Graphics.h" />
+    <ClInclude Include="GreyHound_Physics.h" />
+    <ClInclude Include="Grenade.h" />
+    <ClInclude Include="Bomb.h" />
+    <ClInclude Include="Fire.h" />
+    <ClInclude Include="Level_2.h" />
+    <ClInclude Include="Level_3.h" />
+    <ClInclude Include="Level_4.h" />
+    <ClInclude Include="Repel.h" />
+    <ClInclude Include="Husky_AI.h" />
+    <ClInclude Include="Husky_Graphics.h" />
+    <ClInclude Include="Husky_Physics.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="Shiba_AI.h" />
+    <ClInclude Include="Shiba_Graphics.h" />
+    <ClInclude Include="Shiba_Physics.h" />
+    <ClInclude Include="Shotgun.h" />
+    <ClInclude Include="tinyxml\tinystr.h" />
+    <ClInclude Include="tinyxml\tinyxml.h" />
+    <ClInclude Include="Uzi.h" />
+    <ClInclude Include="Revolver.h" />
+    <ClInclude Include="Level_1.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="TacoGato_Graphics.h" />
+    <ClInclude Include="TacoGato_Input.h" />
+    <ClInclude Include="TacoGato_Physics.h" />
+    <ClInclude Include="Taco_Gato.h" />
+    <ClInclude Include="Actor_NPC.h" />
+    <ClInclude Include="Abstract_Actor_Input.h" />
+    <ClInclude Include="Abstract_Actor_Physics.h" />
+    <ClInclude Include="Abstract_Actor_Graphics.h" />
+    <ClInclude Include="Component_Graphics.h" />
+    <ClInclude Include="Component_Input.h" />
+    <ClInclude Include="Component_Physics.h" />
+    <ClInclude Include="Component_Game_Actor.h" />
+    <ClInclude Include="Game_Collision.h" />
+    <ClInclude Include="Game_Renderer.h" />
+    <ClInclude Include="Game_Timer.h" />
+    <ClInclude Include="Game_Window.h" />
+    <ClInclude Include="Main_Loop.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="World.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Coding_Conventions.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sprites\level_1.tmx" />
+    <None Include="Sprites\level_2.tmx" />
+    <None Include="Sprites\level_3.tmx" />
+    <None Include="Sprites\level_4.tmx" />
+    <None Include="tinyxml\tinyxml.sln" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+    <Image Include="icon2.ico" />
+    <Image Include="Sprites\Icon.ico" />
+    <Image Include="tinyxml\utf8test.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="tinyxml\utf8test.xml" />
+    <Xml Include="tinyxml\utf8testverify.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Taco Gato.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

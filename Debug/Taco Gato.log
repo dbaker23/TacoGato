@@ -1,0 +1,361 @@
+﻿Build started 5/13/2015 11:45:59 AM.
+     1>Project "D:\Projects\Taco Gato\Taco Gato\Taco Gato.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Abstract_Game_Actor.cpp Bulldog_AI.cpp Bulldog_Graphics.cpp Bulldog_Physics.cpp Corgi_AI.cpp Corgi_Graphics.cpp Corgi_Physics.cpp Enemy_Bulldog.cpp Enemy_GreyHound.cpp Enemy_Handler.cpp Enemy_Shiba.cpp Game_Weapons.cpp Enemy_Corgi.cpp Actor_NPC.cpp Abstract_Actor_Input.cpp Abstract_Actor_Graphics.cpp Game_Collision.cpp Game_Renderer.cpp Game_Timer.cpp Game_Window.cpp GreyHound_AI.cpp GreyHound_Graphics.cpp GreyHound_Physics.cpp Husky_AI.cpp Husky_Graphics.cpp Husky_Physics.cpp Level_1.cpp Level_2.cpp Level_3.cpp Level_4.cpp Main.cpp Main_Loop.cpp Abstract_Actor_Physics.cpp Map.cpp Enemy_Husky.cpp Shiba_AI.cpp Shiba_Graphics.cpp Shiba_Physics.cpp Sprite.cpp TacoGato_Graphics.cpp TacoGato_Input.cpp TacoGato_Physics.cpp Taco_Gato.cpp tinyxml\tinystr.cpp tinyxml\tinyxml.cpp tinyxml\tinyxmlerror.cpp tinyxml\tinyxmlparser.cpp World.cpp
+         World.cpp
+         tinyxmlparser.cpp
+         tinyxmlerror.cpp
+         tinyxml.cpp
+         tinystr.cpp
+         Taco_Gato.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+         TacoGato_Physics.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(22): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(23): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(28): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(29): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(37): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(38): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(39): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(46): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(49): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(57): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(68): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(69): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(70): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(77): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(80): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(97): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(98): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(100): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(102): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(108): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(109): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(114): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(115): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(120): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(121): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(141): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\tacogato_physics.cpp(142): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         TacoGato_Input.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+         TacoGato_Graphics.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+         Sprite.cpp
+         Shiba_Physics.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(18): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(19): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(24): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(25): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(33): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(34): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(35): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(42): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(47): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(57): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(69): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(70): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(71): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(78): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(83): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(100): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(101): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(103): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(105): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(110): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(111): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(115): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(116): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(120): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(121): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(141): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\shiba_physics.cpp(142): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Shiba_Graphics.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+         Shiba_AI.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+         Enemy_Husky.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+         Map.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\map.cpp(74): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\projects\taco gato\taco gato\map.cpp(75): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         Abstract_Actor_Physics.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\abstract_actor_physics.cpp(25): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\abstract_actor_physics.cpp(26): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\abstract_actor_physics.cpp(101): warning C4244: '+=' : conversion from 'const float' to 'int', possible loss of data
+         Main_Loop.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+         Main.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+         Level_4.cpp
+         Level_3.cpp
+         Generating Code...
+         Compiling...
+         Level_2.cpp
+         Level_1.cpp
+         Husky_Physics.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(18): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(19): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(24): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(25): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(33): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(34): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(35): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(42): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(45): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(53): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(65): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(66): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(67): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(74): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(77): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(95): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(96): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(98): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(100): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(106): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(107): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(112): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(113): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(118): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(119): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(139): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\husky_physics.cpp(140): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Husky_Graphics.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+         Husky_AI.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+         GreyHound_Physics.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\greyhound_physics.cpp(18): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\greyhound_physics.cpp(19): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\greyhound_physics.cpp(24): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\greyhound_physics.cpp(25): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\greyhound_physics.cpp(93): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\greyhound_physics.cpp(94): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\greyhound_physics.cpp(96): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\greyhound_physics.cpp(98): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\greyhound_physics.cpp(103): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\greyhound_physics.cpp(104): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\greyhound_physics.cpp(108): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\greyhound_physics.cpp(109): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\greyhound_physics.cpp(113): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\greyhound_physics.cpp(114): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\greyhound_physics.cpp(136): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\greyhound_physics.cpp(137): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         GreyHound_Graphics.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+         GreyHound_AI.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+         Game_Window.cpp
+         Game_Timer.cpp
+         Game_Renderer.cpp
+         Game_Collision.cpp
+         Abstract_Actor_Graphics.cpp
+         Abstract_Actor_Input.cpp
+         Actor_NPC.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+         Enemy_Corgi.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+         Game_Weapons.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\game_weapons.cpp(107): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\projects\taco gato\taco gato\game_weapons.cpp(133): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\projects\taco gato\taco gato\game_weapons.cpp(150): warning C4018: '<' : signed/unsigned mismatch
+         Enemy_Shiba.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+         Enemy_Handler.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\enemy_handler.cpp(12): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\projects\taco gato\taco gato\enemy_handler.cpp(20): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\projects\taco gato\taco gato\enemy_handler.cpp(55): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\projects\taco gato\taco gato\enemy_handler.cpp(63): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\projects\taco gato\taco gato\enemy_handler.cpp(70): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\projects\taco gato\taco gato\enemy_handler.cpp(78): warning C4018: '<' : signed/unsigned mismatch
+         Enemy_GreyHound.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+         Compiling...
+         Enemy_Bulldog.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+         Corgi_Physics.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(19): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(20): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(25): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(26): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(34): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(35): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(36): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(43): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(48): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(58): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(70): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(71): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(72): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(79): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(84): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(104): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(105): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(107): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(109): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(115): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(116): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(121): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(122): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(127): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(128): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(148): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_physics.cpp(149): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Corgi_Graphics.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+         Corgi_AI.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\corgi_ai.cpp(15): warning C4805: '==' : unsafe mix of type 'float' and type 'bool' in operation
+     1>d:\projects\taco gato\taco gato\corgi_ai.cpp(17): warning C4805: '==' : unsafe mix of type 'float' and type 'bool' in operation
+         Bulldog_Physics.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bulldog_physics.cpp(19): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bulldog_physics.cpp(20): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bulldog_physics.cpp(25): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bulldog_physics.cpp(26): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bulldog_physics.cpp(33): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\taco gato\taco gato\bulldog_physics.cpp(50): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bulldog_physics.cpp(51): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Bulldog_Graphics.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+         Bulldog_AI.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bulldog_ai.cpp(15): warning C4805: '==' : unsafe mix of type 'float' and type 'bool' in operation
+     1>d:\projects\taco gato\taco gato\bulldog_ai.cpp(17): warning C4805: '==' : unsafe mix of type 'float' and type 'bool' in operation
+         Abstract_Game_Actor.cpp
+     1>d:\projects\taco gato\taco gato\bullet.h(44): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\bullet.h(46): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\projects\taco gato\taco gato\weapon.h(34): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\Taco Gato.res" "Taco Gato.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\Taco Gato\Debug\Taco Gato.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib SDL2_image.lib SDL2_ttf.lib SDL2_mixer.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projects\Taco Gato\Debug\Taco Gato.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\Taco Gato\Debug\Taco Gato.lib" /MACHINE:X86 "Debug\Taco Gato.res"
+         Debug\Abstract_Game_Actor.obj
+         Debug\Bulldog_AI.obj
+         Debug\Bulldog_Graphics.obj
+         Debug\Bulldog_Physics.obj
+         Debug\Corgi_AI.obj
+         Debug\Corgi_Graphics.obj
+         Debug\Corgi_Physics.obj
+         Debug\Enemy_Bulldog.obj
+         Debug\Enemy_GreyHound.obj
+         Debug\Enemy_Handler.obj
+         Debug\Enemy_Shiba.obj
+         Debug\Game_Weapons.obj
+         Debug\Enemy_Corgi.obj
+         Debug\Actor_NPC.obj
+         Debug\Abstract_Actor_Input.obj
+         Debug\Abstract_Actor_Graphics.obj
+         Debug\Game_Collision.obj
+         Debug\Game_Renderer.obj
+         Debug\Game_Timer.obj
+         Debug\Game_Window.obj
+         Debug\GreyHound_AI.obj
+         Debug\GreyHound_Graphics.obj
+         Debug\GreyHound_Physics.obj
+         Debug\Husky_AI.obj
+         Debug\Husky_Graphics.obj
+         Debug\Husky_Physics.obj
+         Debug\Level_1.obj
+         Debug\Level_2.obj
+         Debug\Level_3.obj
+         Debug\Level_4.obj
+         Debug\Main.obj
+         Debug\Main_Loop.obj
+         Debug\Abstract_Actor_Physics.obj
+         Debug\Map.obj
+         Debug\Enemy_Husky.obj
+         Debug\Shiba_AI.obj
+         Debug\Shiba_Graphics.obj
+         Debug\Shiba_Physics.obj
+         Debug\Sprite.obj
+         Debug\TacoGato_Graphics.obj
+         Debug\TacoGato_Input.obj
+         Debug\TacoGato_Physics.obj
+         Debug\Taco_Gato.obj
+         Debug\tinystr.obj
+         Debug\tinyxml.obj
+         Debug\tinyxmlerror.obj
+         Debug\tinyxmlparser.obj
+         Debug\World.obj
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Taco Gato.vcxproj -> D:\Projects\Taco Gato\Debug\Taco Gato.exe
+     1>Done Building Project "D:\Projects\Taco Gato\Taco Gato\Taco Gato.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.34

@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Enemies">
+      <UniqueIdentifier>{8c63ce5a-c3e4-4dbe-9f9b-c27a996c2d0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gameworks">
+      <UniqueIdentifier>{77e0c586-70b8-480d-93c2-d1976aa16692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interfaces">
+      <UniqueIdentifier>{062bd04e-19cd-4edb-b88d-88d4c7ad6e94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NPCs">
+      <UniqueIdentifier>{a9157820-90cb-409f-8473-46e4dcbcc2e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Taco">
+      <UniqueIdentifier>{20cea316-47a5-4d82-aab1-d9523cc990b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Weapons">
+      <UniqueIdentifier>{8f48d301-ae16-4799-925b-d033548e444a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World/Maps">
+      <UniqueIdentifier>{ba62b88c-a8d3-4dd2-968c-0d47fc4ada0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Abstracts">
+      <UniqueIdentifier>{0a537cc2-0eaf-4dc2-83d7-6b1341588df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Abstracts">
+      <UniqueIdentifier>{745b7160-bd4b-47f3-b4cf-ec8c9fb61a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Enemies">
+      <UniqueIdentifier>{fa9dee7a-c4c4-40d6-8a19-60c6928292b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gameworks">
+      <UniqueIdentifier>{84d862a9-7799-4b5a-afe9-04187ff1be3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NPCs">
+      <UniqueIdentifier>{dab84a30-8be4-4d59-8c86-277c5dd2a13d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Taco">
+      <UniqueIdentifier>{31de2960-fff5-4a29-9c00-7f842a5c20de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Weapons">
+      <UniqueIdentifier>{6b28d96f-7b00-45ab-b5f5-74d0350f9f72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World/Maps">
+      <UniqueIdentifier>{eea941a5-a578-42ab-a5ac-51739eba93c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Abstract_Actor_Graphics.cpp">
+      <Filter>Source Files\Abstracts</Filter>
+    </ClCompile>
+    <ClCompile Include="Abstract_Actor_Input.cpp">
+      <Filter>Source Files\Abstracts</Filter>
+    </ClCompile>
+    <ClCompile Include="Abstract_Actor_Physics.cpp">
+      <Filter>Source Files\Abstracts</Filter>
+    </ClCompile>
+    <ClCompile Include="Abstract_Game_Actor.cpp">
+      <Filter>Source Files\Abstracts</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor_NPC.cpp">
+      <Filter>Source Files\NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="Bulldog_AI.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Bulldog_Graphics.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Bulldog_Physics.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Corgi_AI.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Corgi_Graphics.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Corgi_Physics.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Bulldog.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Corgi.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_GreyHound.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Husky.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Shiba.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Collision.cpp">
+      <Filter>Source Files\Gameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Renderer.cpp">
+      <Filter>Source Files\Gameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Timer.cpp">
+      <Filter>Source Files\Gameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Weapons.cpp">
+      <Filter>Source Files\Gameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Window.cpp">
+      <Filter>Source Files\Gameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="GreyHound_AI.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="GreyHound_Graphics.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="GreyHound_Physics.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Husky_AI.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Husky_Graphics.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Husky_Physics.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files\World/Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files\World/Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_1.cpp">
+      <Filter>Source Files\World/Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Gameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Loop.cpp">
+      <Filter>Source Files\Gameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinystr.cpp">
+      <Filter>Source Files\Gameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxml.cpp">
+      <Filter>Source Files\Gameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlerror.cpp">
+      <Filter>Source Files\Gameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlparser.cpp">
+      <Filter>Source Files\Gameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="Shiba_AI.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Shiba_Graphics.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Shiba_Physics.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\Gameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="Taco_Gato.cpp">
+      <Filter>Source Files\Taco</Filter>
+    </ClCompile>
+    <ClCompile Include="TacoGato_Graphics.cpp">
+      <Filter>Source Files\Taco</Filter>
+    </ClCompile>
+    <ClCompile Include="TacoGato_Input.cpp">
+      <Filter>Source Files\Taco</Filter>
+    </ClCompile>
+    <ClCompile Include="TacoGato_Physics.cpp">
+      <Filter>Source Files\Taco</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Handler.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_2.cpp">
+      <Filter>Source Files\World/Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_3.cpp">
+      <Filter>Source Files\World/Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_4.cpp">
+      <Filter>Source Files\World/Maps</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shotgun.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Revolver.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Repel.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Bazooka.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Grenade.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Uzi.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Shiba_Physics.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Shiba_AI.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Shiba_Graphics.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="GreyHound_Physics.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="GreyHound_Graphics.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="GreyHound_AI.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Corgi_Physics.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Corgi_AI.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Corgi_Graphics.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Bulldog_Physics.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Bulldog_AI.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Bulldog_Graphics.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Husky_AI.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Husky_Graphics.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Husky_Physics.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Bulldog.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Corgi.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_GreyHound.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Husky.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Shiba.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstract_Actor_Graphics.h">
+      <Filter>Header Files\Abstracts</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstract_Actor_Input.h">
+      <Filter>Header Files\Abstracts</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstract_Actor_Physics.h">
+      <Filter>Header Files\Abstracts</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstract_Game_Actor.h">
+      <Filter>Header Files\Abstracts</Filter>
+    </ClInclude>
+    <ClInclude Include="Taco_Gato.h">
+      <Filter>Header Files\Taco</Filter>
+    </ClInclude>
+    <ClInclude Include="TacoGato_Graphics.h">
+      <Filter>Header Files\Taco</Filter>
+    </ClInclude>
+    <ClInclude Include="TacoGato_Input.h">
+      <Filter>Header Files\Taco</Filter>
+    </ClInclude>
+    <ClInclude Include="TacoGato_Physics.h">
+      <Filter>Header Files\Taco</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_1.h">
+      <Filter>Header Files\World/Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files\World/Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files\World/Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="Component_Game_Actor.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Component_Graphics.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Component_Input.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Component_Physics.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Collision.h">
+      <Filter>Header Files\Gameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Renderer.h">
+      <Filter>Header Files\Gameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Timer.h">
+      <Filter>Header Files\Gameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Weapons.h">
+      <Filter>Header Files\Gameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Window.h">
+      <Filter>Header Files\Gameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="Main_Loop.h">
+      <Filter>Header Files\Gameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files\Gameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\Gameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml\tinystr.h">
+      <Filter>Header Files\Gameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml\tinyxml.h">
+      <Filter>Header Files\Gameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor_NPC.h">
+      <Filter>Header Files\NPCs</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Header Files\World/Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Handler.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_2.h">
+      <Filter>Header Files\World/Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_4.h">
+      <Filter>Header Files\World/Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_3.h">
+      <Filter>Header Files\World/Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tinyxml\tinyxml.sln" />
+    <None Include="Sprites\level_1.tmx">
+      <Filter>Source Files\World/Maps</Filter>
+    </None>
+    <None Include="Sprites\level_2.tmx">
+      <Filter>Source Files\World/Maps</Filter>
+    </None>
+    <None Include="Sprites\level_3.tmx">
+      <Filter>Source Files\World/Maps</Filter>
+    </None>
+    <None Include="Sprites\level_4.tmx">
+      <Filter>Source Files\World/Maps</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="tinyxml\utf8test.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icon2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Sprites\Icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="tinyxml\utf8test.xml" />
+    <Xml Include="tinyxml\utf8testverify.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Coding_Conventions.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Taco Gato.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

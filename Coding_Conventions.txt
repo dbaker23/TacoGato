@@ -1,0 +1,48 @@
+Standard coding style:
+
+4 spaces = 1 tab
+
+in .h file:
+/*================================
+*function name:
+
+*Parameters:
+        param1:
+        param2:
+================================*/
+
+
+declare variables with equal distances between = and what it equals:
+int someInt =	 	24;
+string isString	=	"yes";
+bool yes =		    true;
+
+
+put pointer and reference syntax things next to the variable type:
+int a =     3;
+int* pInt = &a;
+int& num =  a;
+
+
+use precision floating points, unless we need a double:
+float f = 0.5f;
+not: float f = 0.5; float f = 1.f;
+
+
+use camel notation for variables, leading caps for functions, Classes use underscore:
+class This_Class
+int thisInt;
+int ThisClass::SomeFunction(){ return 0; }
+
+
+typedef will end with _t:
+typedef int fileHandle_t;
+
+
+enums and #defines will use upper cases:
+#define SIDE_UP 0
+enum Contact
+{
+    CONTACT_UP,
+	CONTACT_DOWN
+};
